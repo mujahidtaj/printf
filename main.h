@@ -1,5 +1,7 @@
 #include <stdio.h>
 
+int printf(const char *restrict format, ...);
+
 int main()
 {
 	char str[] = "THE SKY IS BLUE";
